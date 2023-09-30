@@ -2,7 +2,7 @@ import LineItem from "./LineItem";
 
 const ItemList = ({ items, handleCheck, handleDelete }) => {
   return (
-    <ul className="list-style-none container-sm">
+    <ul>
       {items.map((item) => {
         return (
           <LineItem
